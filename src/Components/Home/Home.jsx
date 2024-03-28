@@ -1,9 +1,11 @@
+import Booksdata from "../BooksData/Booksdata";
 import Benear from "./Benear";
 
 const Home = () => {
     return (
-        <div>
+        <div >
             <Benear></Benear>
+            <Booksdata></Booksdata>
         </div>
     );
 };

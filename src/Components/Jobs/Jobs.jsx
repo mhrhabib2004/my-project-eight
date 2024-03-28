@@ -1,9 +1,10 @@
-import React from 'react';
+import Errorpage from "../ErrorPage/Errorpage";
+
 
 const Jobs = () => {
     return (
         <div>
-            <h2>ami jobs ar</h2>
+            <Errorpage></Errorpage>
         </div>
     );
 };
