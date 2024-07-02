@@ -3,10 +3,14 @@ import { useLoaderData, useParams } from "react-router-dom";
 const Readbookdata = () => {
 const booklode=useLoaderData();
 console.log(booklode)
-// const { bookId } = useParams();
+const { bookId } = useParams();
+
 // const bookInt = parseInt(bookId);
-// const book = booklode?.find((book) => book.bookId === bookInt);
+// const bookInt = parseInt(bookId);
+    // console.log(bookInt)
+    // const bookk = booklode?.find((book) => book.bookId === bookInt);
 // console.log(bookdata.bookId)
+// console.log(bookk)
 // const { image, bookName, authorName, category, review, totalPages, publisher, yearOfPublishing, rating } = book;
 // console.log(book)
 
